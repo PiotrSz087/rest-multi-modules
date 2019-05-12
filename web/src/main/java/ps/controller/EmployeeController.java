@@ -41,4 +41,10 @@ public class EmployeeController {
 
         return employee;
     }
+
+    @DeleteMapping("/delete")
+    public String deleteTest() {
+        System.out.println("delete test git");
+        return "delete";
+    }
 }
